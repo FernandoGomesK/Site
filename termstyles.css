@@ -1,14 +1,40 @@
-.grid-container{
+header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 10px;
+    align-items: center;
+    padding: 10px;
     
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 27px;
+    margin-right: 42px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+nav ul li a{
+    
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;     
+    text-transform: uppercase;
+    font-weight: 755;
+    color: #060606;
 }
 
 .pixarlogo{
     display: flex;
     justify-content: flex-start;
-    margin-left: 158vw;
+    margin-right: 450px;
+}
+
+#logo{
+    display: block;
+    margin-right: 500px;
 }
 
 .grid-item{
