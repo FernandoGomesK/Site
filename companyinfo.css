@@ -12,7 +12,7 @@ nav ul{
     display: flex;
     list-style: none;
     gap: 27px;
-    margin-right: 35px;
+    margin-right: 43px;
     margin-top: 0px;
     margin-bottom: 2px;
 }
@@ -30,12 +30,12 @@ nav ul li a{
 .pixarlogo{
     display: flex;
     justify-content: flex-start;
-    margin-right: 325px;
+    margin-right: 450px;
 }
 
 #logo{
     display: block;
-    margin-right: 200px;
+    margin-right: 500px;
 }
 
 .grid-item{
@@ -49,6 +49,8 @@ nav ul li a{
 #company {
     opacity: 1;
     background-color: #dee8f1;
+    border: 1px solid #dee8f1;
+    border-bottom: 15px solid #dee8f1;
 }
 
 #company:hover {
