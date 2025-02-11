@@ -1,0 +1,41 @@
+.grid-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.pixarlogo{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 158vw;
+}
+
+.grid-item{
+    opacity: 0.4;
+}
+
+.grid-item:hover {
+    opacity: 0.6;
+}
+
+#company {
+    opacity: 1;
+}
+
+#logo{
+    display: block;
+    margin-left: 418px; 
+}
+
+#termslogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#companyinfo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
