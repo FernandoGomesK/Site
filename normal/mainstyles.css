@@ -1,0 +1,107 @@
+
+/* @media (width: 768px) { 
+    #logo{
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+        height: auto;
+    }
+    .pixarlogo{
+        background-color: #060606;
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+    }
+
+    body{ 
+        background-color:aliceblue;
+    }
+    
+} */
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    header .pixarlogo {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 27px;
+    margin-right: 42px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+nav ul li a{
+    
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;     
+    text-transform: uppercase;
+    font-weight: 755;
+    color: #060606;
+}
+
+.pixarlogo{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 800px;
+    background-color: #060606;
+}
+
+/* #logo{
+    width: 100%;
+    margin-right: 200px;
+} */
+
+.grid-item{
+    opacity: 0.4;
+}
+
+.grid-item:hover{
+    opacity: 0.6;
+}
+
+.use{
+    display: grid;
+    grid-template-columns: auto 1px auto;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.6);
+}
+
+#rights{
+    margin-top: 0px;
+    text-align: center;
+    transform: scale(0.6);
+}
+
+
+.carscontainer{
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.barcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+
