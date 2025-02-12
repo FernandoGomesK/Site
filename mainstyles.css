@@ -1,11 +1,38 @@
 
+/* @media (width: 768px) { 
+    #logo{
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+        height: auto;
+    }
+    .pixarlogo{
+        background-color: #060606;
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+    }
+
+    body{ 
+        background-color:aliceblue;
+    }
+    
+} */
+
 header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    
+}
+
+@media (max-width: 768px) {
+    header .pixarlogo {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }
 
 nav ul{
@@ -30,13 +57,14 @@ nav ul li a{
 .pixarlogo{
     display: flex;
     justify-content: flex-start;
-    margin-right: 325px;
+    max-width: 800px;
+    background-color: #060606;
 }
 
-#logo{
-    display: block;
+/* #logo{
+    width: 100%;
     margin-right: 200px;
-}
+} */
 
 .grid-item{
     opacity: 0.4;
