@@ -4,6 +4,23 @@
     margin: 0;
 }
 
+@media screen and (max-width: 600px) { 
+    .container {
+        width: 100%;
+    }
+    .pixarlogo{ 
+        display: flex;
+        justify-content: center;
+    }
+    .navbar{
+        display: flex;
+        
+    }
+    .barcontainer{
+        display: none;
+    }
+}
+
 .container {
     width: 100%;
 }
@@ -68,5 +85,14 @@
     flex-direction: row;
     gap: 10px;
     transform: scale(0.6);
+}
+
+.container .wrapper .nav #rights{    
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 10px;
+    transform: scale(0.6);
+    opacity: 0.8;
 }
 
