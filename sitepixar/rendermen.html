@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixar</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Renderman</title>
+    <link rel="stylesheet" href="renderman.css">
 </head>
 <body>
-
-
+    
     <div class="container">
         <div class="wrapper">
 
@@ -32,8 +31,19 @@
             </header>
 
             <div class="carsimage">
-                <img src="images/3.jpg" alt="carsimage">
+                <form action="#" method="post">
+                    <label for="FName">First Name</label><br>
+                    <input type="text" id="Fname" name="fname" required>
+                    <label for="LName">Last Name</label><br>
+                    <input type="text" id="LName" name="lname" required>
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" name="pass">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </form>
+
             </div>
+
 
             <div class="barcontainer">
                 <img src="images/bar2011.jpg" usemap="#image-map2" alt="bar">
@@ -55,10 +65,6 @@
             <div class="nav">
                 <p id="rights">TM & © 1986 - 2011 Pixar. All Rights Reserved.</p>
             </div>
-
-
-        </div>
-    </div>
     
 </body>
 </html>
